@@ -1,3 +1,8 @@
+0.29 - 2015-06-26
+    - Add more Num tests (meAmdios)
+    - Improve POD (meAmidos)
+    - Add DISTNAME to MakeMaker args
+
 0.28 - 2015-02-27
     - Refine POD (github.com/meAmidos)
     - Bump version of Moo and Module::Runtime pre-reqs

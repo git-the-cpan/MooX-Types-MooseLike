@@ -3,7 +3,7 @@ use warnings FATAL => 'all';
 use 5.008001;
 
 my %META = (
-  name => 'MooX::Types::MooseLike',
+  name => 'MooX-Types-MooseLike',
   license => 'perl_5',
   prereqs => {
     configure => { requires => {
@@ -55,7 +55,7 @@ my %META = (
   x_authority => 'cpan:MATEU',
 );
 
-my %MM_ARGS = ();
+my %MM_ARGS = ('DISTNAME' => 'MooX-Types-MooseLike');
 
 ## BOILERPLATE ###############################################################
 require ExtUtils::MakeMaker;
